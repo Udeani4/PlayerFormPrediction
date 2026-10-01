@@ -1,0 +1,31 @@
+python_dotenv
+requests
+ipykernel
+pandas
+openpyxl
+pandas_ta
+xgboost
+lightgbm
+scikit-learn
+scikit-optimize
+statsmodels
+matplotlib
+plotly
+nbformat
+pandas_datareader
+pmdarima
+numpy
+pymongo
+certifi
+pymongo[srv]==3.12
+dill
+mlflow
+pyaml
+dagshub
+fastapi
+uvicorn
+python-multipart
+understatapi
+
+# -e .
+## '-e .' will refer to the setup.py/setup() and setup the entire code as a package. Remember it was left out in the requirements_list it will not be considered for installation but it will be used for setup(). Once completed you will see the setup files (NetworkSecurity.egg-info) as so named in setup(). NOTE: We dont have to put it at the beginning we only need it at the final stage when we want to build, so comment out when not used
